@@ -11,11 +11,6 @@ var problem = require(CONTROLLER_PATH + 'problemController.js');
 // home
 router.get('/', index.index);
 
-// user
-router.get('/users', user.index);
-router.get('/user/new', user.new);
-router.put('/user/:id?', user.update);
-router.get('/user/:id?', user.show);
 
 // knowledge
 router.get('/knowledge', knowledge.show);
