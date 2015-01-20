@@ -5,7 +5,6 @@ var router = express.Router();
 // TODO: refactor the 'require' lines in a more extendable way.
 var CONTROLLER_PATH = '../api/controllers/';
 var index = require(CONTROLLER_PATH + 'indexController.js');
-var user = require(CONTROLLER_PATH + 'userController.js');
 var knowledge = require(CONTROLLER_PATH + 'knowledgeController.js');
 var problem = require(CONTROLLER_PATH + 'problemController.js');
 
